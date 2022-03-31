@@ -207,3 +207,61 @@ main{
     margin-left: 30px;
 }
 
+@media all and (max-width: 1200px){
+    body{
+        max-width: 1200px;
+        margin:0 auto;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .left-side{
+        position: relative;
+        width: 950px;
+        background-color: #404042;
+        padding: 20px 40px;
+    }
+
+    .name_surname{
+        font-size: 30px;
+    }
+
+    .education-list, .expirience-list{
+        font-size: 40px;
+    }
+
+    .hobby_list_games, .hobby_list_books, .hobby_list_cycling, .hobby_list_gym, .hobby_list_swimming, .driving_licence > p{
+        font-size: 30px;
+    }
+
+    .git_button{
+        padding: 30px 40px;
+        margin-top: 22px;
+        margin-left: 49px;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+
+    .langs_prog{
+        font-size: 40px;
+        width: 260px
+    }
+
+    .underline_skill{
+        margin-top: 70px;
+    }
+
+    .hobby_list_games, .hobby_list_books, .hobby_list_cycling, .hobby_list_gym, .hobby_list_swimming, .driving_licence > img{
+        width: 96px;
+        height: 96px;
+        align-items: center;
+    }
+
+    .hobby{
+        margin-bottom: 150px;
+    }
+
+}
+
