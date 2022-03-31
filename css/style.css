@@ -17,12 +17,11 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    box-shadow: 5px 10px 30px rgba(0,0,0,0.5);
+    box-shadow: 5px 10px 60px rgba(0,0,0,1);
 }
 
 .left-side{
     position: relative;
-    height: 1000px;
     width: 600px;
     background-color: #404042;
     padding: 20px 40px;
@@ -51,7 +50,7 @@ main{
     margin-top: 50px;
 }
 
-.personal_qualities, .contacts > h2{
+.personal_qualities, .contacts, .knoweledge > h2{
     color: white;
     font-family: Josefin;
     letter-spacing: 4px;
@@ -76,7 +75,7 @@ main{
     margin-top: 5px;
 }
 
-.qualities-list, .contacts_information{
+.qualities-list, .contacts_information, .langs_prog{
     font-family: Josefin;
     color: white;
     font-size: 20px;
@@ -84,14 +83,43 @@ main{
     margin-bottom: 50px;
 }
 
-.contacts_information>ul{
+.contacts_information>ul, .langs_prog>ul{
     padding: 0;
     line-height: 2;
     list-style-type: none;
+
 }
 
 .contact_images{
     margin-right: 15px;
+}
+
+.knoweledge-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.langs_prog{
+    width: 160px;
+}
+
+.underline_skill{
+    display: flex;
+    flex-direction: row;
+    margin-top: 37px;
+}
+
+.red_line_skill{
+    height: 10px;
+    width: 100px;
+    background-color: red;
+}
+
+.white_line_skill{
+    height: 10px;
+    width: 100px;
+    background-color: white;
 }
 
 .right-side{
