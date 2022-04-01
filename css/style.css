@@ -219,8 +219,13 @@ main{
 
     .left-side{
         position: relative;
-        width: 950px;
+        width: 100%;
         background-color: #404042;
+        padding: 20px 40px;
+    }
+
+    .right-side{
+        width: 100%;
         padding: 20px 40px;
     }
 
